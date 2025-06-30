@@ -1,0 +1,401 @@
+[
+  {
+    "id": 1,
+    "destination": "Paris",
+    "mainImage": "https://media.cntraveler.com/photos/6536d759a3584ea7935ada5f/master/w_2580%2Cc_limit/Eiffel-Tower-rafael-k-streit-24LIw3veBi4-unsplash.jpg",
+    "bestHotels": [
+      {
+        "name": "Hotel Le Bristol",
+        "images": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/250555233.jpg?k=fb88ad3dfe51b0cd5b3d365c7da44d863560d90950170480ab9d096739eae4d2", "https://cf.bstatic.com/xdata/images/hotel/max1024x768/250555339.jpg?k=514836490cecf2a4cb00b39a055c9082dcb3531651a1b72135b80c251ff5173b"],
+        "price": 350,
+        "rating" : 4.5,
+        "totalRating": 20,
+        "amenities": ["Free Wi-Fi", "Swimming Pool", "Restaurant", "Bar", "24-hour Front Desk", "Laundry Service", "Air Conditioning"]
+      },
+      {
+        "name": "Shangri-La Hotel",
+        "images": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/295686344.jpg?k=0351eb5730a6a8506e10e06796e7949fc8a391103d325ed501ce9ac6dd7cbfe2", "https://cf.bstatic.com/xdata/images/hotel/max1024x768/295686287.jpg?k=f7a289fb94f518c81dd08026fed356e9f07ef7c97202a5c05a3db8050e924d20"],
+        "price": 400,
+        "rating" : 4.0,
+        "totalRating": 15,
+        "amenities": ["Free Wi-Fi", "Spa and Wellness Center", "Fitness Center", "24-hour Front Desk", "Laundry Service", "Air Conditioning"]
+      },
+      {
+        "name": "The Peninsula Paris",
+        "images": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/524556763.jpg?k=a1913c8c5432729d184a9bb7a7844a1525d06595195c263188e7cbe33a5d4049", "https://cf.bstatic.com/xdata/images/hotel/max1024x768/487328937.jpg?k=72c89ddb97a210cd1ebfd22f8fd1ad71f4b20788b82ff28eb4337c9841eabd43"],
+        "price": 420,
+        "rating" : 3.7,
+        "totalRating": 30,
+        "amenities": ["Free Wi-Fi", "Air Conditioning", "Fitness Center", "Pet Friendly", "Daily Housekeeping"]
+      }
+    ],
+    "touristSpots": [
+      {
+        "name": "Eiffel Tower",
+        "description": "The Eiffel Tower is Paris’s most famous landmark, located on the Champ de Mars near the Seine River. Built in 1889 by Gustave Eiffel for the World’s Fair, it stands 330 meters tall and was the tallest structure in the world at the time. Made of wrought iron, the tower has three observation decks offering stunning views of Paris. It lights up every evening, sparkling for five minutes every hour after sunset — a magical sight for visitors. Today, the Eiffel Tower is a global symbol of romance, art, and French innovation.",
+        "images": [
+          "https://media.architecturaldigest.com/photos/66a951edce728792a48166e6/16:9/w_2240,c_limit/GettyImages-955441104.jpg",
+          "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221130827/iStock-155381519-1920x1280.jpg"
+        ]
+      },
+      {
+        "name": "Louvre Museum",
+        "description": "The Louvre Museum is the world’s largest and most visited art museum, located in the heart of Paris. Originally a royal palace, it became a public museum in 1793 and now houses over 35,000 artworks, including the Mona Lisa, Venus de Milo, and Liberty Leading the People. Its iconic glass pyramid entrance blends modern design with historic grandeur. The Louvre spans centuries of art, from ancient civilizations to 19th-century masterpieces. A global symbol of art, culture, and history, the Louvre is a must-visit for any art lover or curious traveler.",
+        "images": [
+          "https://dynamic-media.tacdn.com/media/photo-o/2e/a6/ae/02/caption.jpg",
+          "https://xpscntm-asset-6aaa6adb24ad2493.s3.ap-southeast-1.amazonaws.com/3892244192147/Louvre-Museum-2f052ac8-b10e-46db-9abe-ae4a0113fcdc.jpeg"
+        ]
+      },
+      {
+        "name": "Notre-Dame Cathedral",
+        "description": "Notre-Dame Cathedral is one of the most famous Gothic cathedrals in the world, located on the Île de la Cité in the heart of Paris. Built between the 12th and 14th centuries, it’s renowned for its stunning architecture, rose windows, flying buttresses, and iconic bell towers. The cathedral is a masterpiece of medieval craftsmanship and a symbol of French history and faith. Though damaged by fire in 2019, restoration is underway, and it remains a powerful cultural and spiritual landmark. Notre-Dame continues to inspire with its beauty, resilience, and timeless grandeur.",
+        "images": [
+          "https://i.natgeofe.com/n/5fdfbda3-0ccf-4df1-8ec1-fe8a521e6337/Notre-Dame_west-facade.jpg",
+          "https://cdn.britannica.com/35/155335-050-D0C61BB7/Notre-Dame-de-Paris-France.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "destination": "Tokyo",
+    "mainImage": "https://lp-cms-production.imgix.net/2023-08/AlamyRFJ0CGPX.jpg",
+    "bestHotels": [
+      {
+        "name": "Park Hyatt Tokyo",
+        "price": 300,
+        "images": ["https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/07/13/1102/Park-Hyatt-Tokyo-P293-Tokyo-Suite.jpg/Park-Hyatt-Tokyo-P293-Tokyo-Suite.jpg", "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/07/13/1202/Park-Hyatt-Tokyo-P335-Park-Suite-Living-Room.jpg/Park-Hyatt-Tokyo-P335-Park-Suite-Living-Room.jpg"],
+        "rating" : 4.2,
+        "totalRating": 16,
+        "amenities": ["Free Wi-Fi", "Restaurant", "Bar", "Pet Friendly", "Daily Housekeeping"]
+      },
+      {
+        "name": "The Ritz-Carlton",
+        "price": 380,
+        "images": ["https://cache.marriott.com/content/dam/marriott-renditions/TYORZ/tyorz-deluxe-0024-hor-clsc.jpg", "https://cache.marriott.com/content/dam/marriott-renditions/TYORZ/tyorz-bathroom-2801-hor-clsc.jpg"],
+        "rating" : 3.7,
+        "totalRating": 30,
+        "amenities": ["Free Wi-Fi", "Business Center", "Fitness Center", "Airport Shuttle", "Swimming Pool"]
+      },
+      {
+        "name": "Hilton Tokyo",
+        "price": 270,
+        "images": ["https://pix8.agoda.net/hotelImages/2287709/461977640/c78be366d1cdd9c15bfdd78827689727.jpg", "https://pix8.agoda.net/hotelImages/2287709/461977642/5ff10c01a530061becb279f98426b80b.jpg"],
+        "rating" : 3.7,
+        "totalRating": 30,
+        "amenities": ["Free Wi-Fi", "Air Conditioning", "Restaurant", "Minibar", "Concierge Service"]
+      }
+    ],
+    "touristSpots": [
+      {
+        "name": "Tokyo Tower",
+        "description": "Tokyo Tower is a striking red-and-white landmark in central Tokyo, inspired by the Eiffel Tower and standing 333 meters tall. Completed in 1958, it serves as both a broadcasting tower and a popular tourist attraction. Visitors can enjoy panoramic views from its Main Deck and Top Deck, especially stunning at night. The tower also features museums, shops, and the vibrant FootTown complex at its base. Tokyo Tower is a symbol of Japan’s post-war rebirth, innovation, and urban beauty.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tokyo_Tower_%288172202525%29.jpg/960px-Tokyo_Tower_%288172202525%29.jpg",
+          "https://www.tokyo-prestige.com/wp-content/uploads/2021/11/tokyo-tower-skytree.jpg"
+        ]
+      },
+      {
+        "name": "Shibuya Crossing",
+        "description": "Shibuya Crossing is one of the busiest and most iconic pedestrian crossings in the world, located just outside Shibuya Station in Tokyo. With hundreds of people crossing from all directions at once, it’s a symbol of Tokyo’s energy, rhythm, and organized chaos. Surrounded by giant LED screens, shops, and skyscrapers, it’s a favorite spot for photos, films, and people-watching. The best views come from nearby cafés or the Shibuya Sky observatory. Shibuya Crossing is a must-see for anyone wanting to experience the pulse of modern Tokyo.",
+        "images": [
+          "https://japandeluxetours.com/uploads/2017/08/20170823164613_599e13c5791f8.jpg",
+          "https://media.cntraveler.com/photos/598202951209f576909acb19/16:9/w_2240,c_limit/Shibuya-Crossing-GettyImages-533959897.jpg"
+        ]
+      },
+      {
+        "name": "Senso-ji Temple",
+        "description": "Senso-ji is Tokyo’s oldest and most famous Buddhist temple, located in the historic Asakusa district. Built in 645 AD, it’s dedicated to Kannon, the goddess of mercy, and draws millions of visitors each year. The temple is known for its striking Thunder Gate (Kaminarimon), the bustling Nakamise shopping street, and its beautiful pagoda and main hall. It’s especially magical during festivals and at night when it's beautifully illuminated. Senso-ji blends ancient tradition, spiritual serenity, and vibrant culture in the heart of modern Tokyo.",
+        "images": [
+          "https://res-2.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1675339920/tokyo/Tokyo_s_id19_18",
+          "https://www.vikipandit.com/wp-content/albums/sensoji/Sensoji-Hall-Night.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "destination": "New York",
+    "mainImage": "https://media1.thrillophilia.com/filestore/oiek6gvp0gw7njpe0lf43fzscq6m_1618909202_shutterstock_248799484.jpg",
+    "bestHotels": [
+      {
+        "name": "The Plaza",
+        "price": 450,
+        "images": [],
+        "rating" : 3.3,
+        "totalRating": 20,
+        "amenities": ["Air Conditioning", "Free Wi-Fi", "Tea/Coffee Maker", "Private Bathroom with Toiletries", "Business Center"]
+      },
+      {
+        "name": "Four Seasons Hotel",
+        "price": 500,
+        "images": [],
+        "rating" : 4.8,
+        "totalRating": 18,
+        "amenities": ["Fitness Center", "Sauna", "Bar", "Babysitting service", "Wheelchair accessible facilities"]
+      },
+      {
+        "name": "The Langham",
+        "price": 380,
+        "images": [],
+        "rating" : 4.9,
+        "totalRating": 20,
+        "amenities": ["Free Wi-Fi", "Business Center", "Fitness Center", "Sauna", "Babysitting service"]
+      }
+    ],
+    "touristSpots": [
+      {
+        "name": "Statue of Liberty",
+        "description": "The Statue of Liberty is one of America’s most iconic symbols of freedom and democracy, standing on Liberty Island in New York Harbor. A gift from France in 1886, the statue was designed by Frédéric Auguste Bartholdi and built by Gustave Eiffel. Standing 93 meters tall from base to torch, Lady Liberty welcomes millions of visitors and immigrants with her raised torch and tablet inscribed with the date of American independence. She remains a powerful emblem of hope, liberty, and the American spirit.",
+        "images": [
+          "https://www.historyhit.com/app/uploads/bis-images/5150130/Statue-of-Liberty-e1632495792514-1576x1074.jpg",
+          "https://images.squarespace-cdn.com/content/v1/564fe1dfe4b02e24589cb0cd/1645814786032-WNCKTFACB84H9051CJYJ/Cover.png"
+        ]
+      },
+      {
+        "name": "Central Park",
+        "description": "Central Park is a vast green oasis in the heart of Manhattan, stretching over 843 acres. Opened in 1858, it offers a peaceful escape from the city’s hustle, with lakes, meadows, gardens, trails, and even a zoo. Visitors can enjoy boating, picnics, horse-drawn carriage rides, or simply relax on the Great Lawn. It's also home to famous spots like Bethesda Terrace, Strawberry Fields, and Bow Bridge. Central Park is a beloved symbol of nature, recreation, and community in New York City.",
+        "images": [
+          "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0d/d9/4e/d0.jpg",
+          "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0d/d9/4e/d1.jpg"
+        ]
+      },
+      {
+        "name": "Times Square",
+        "description": "Times Square is one of the most vibrant and iconic places in New York City, known for its bright billboards, bustling crowds, and nonstop energy. Located at the crossroads of Broadway and Seventh Avenue, it’s often called “The Crossroads of the World. Famous for the New Year’s Eve Ball Drop, Times Square is home to theaters, restaurants, shops, and street performers, attracting millions of visitors year-round. It’s a symbol of entertainment, culture, and the electric spirit of New York City.",
+        "images": [
+          "https://idsb.tmgrup.com.tr/ly/uploads/images/2024/04/09/323101.jpg",
+          "https://i0.wp.com/thedetailedlocal.com/wp-content/uploads/2019/12/andreas-nextvoyagepl-hJwLoCI1TmA-unsplash-2.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "destination": "Rome",
+    "mainImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/97/ba/6b/exterieur.jpg",
+    "bestHotels": [
+      {
+        "name": "Hotel de Russie",
+        "price": 320,
+        "images": [],
+        "rating" : 4.9,
+        "totalRating": 28,
+        "amenities": ["Free Wi-Fi", "Air Conditioning", "Restaurant", "Minibar", "Business Center", "Fitness Center"]
+      },
+      {
+        "name": "Rome Cavalieri",
+        "price": 290,
+        "images": [],
+        "rating" : 3.9,
+        "totalRating": 20,
+        "amenities": ["Room service", "Free Wi-Fi", "Buffet options", "Fitness Center", "Sauna", "Spa and wellness center"]
+      },
+      {
+        "name": "Baglioni Hotel Regina",
+        "price": 310,
+        "images": [],
+        "rating" : 3.6,
+        "totalRating": 29,
+        "amenities": ["Free Wi-Fi", "Game room", "Business Center", "Sauna", "Buffet options"]
+      }
+    ],
+    "touristSpots": [
+      {
+        "name": "Colosseum",
+        "description": "The Colosseum is one of Rome’s most iconic landmarks and the largest ancient amphitheater ever built. Completed in 80 AD, it once held over 50,000 spectators for gladiator battles, animal hunts, and public spectacles. Made of stone and concrete, the Colosseum is a marvel of Roman engineering and architecture. Despite centuries of damage, it remains a powerful symbol of the Roman Empire’s strength and legacy. Today, it’s a UNESCO World Heritage Site and a must-see for anyone exploring ancient history and classical ruins.",
+        "images": [
+          "https://static.independent.co.uk/2021/05/02/13/Italy_Colosseum_79500.jpg",
+          "https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg"
+        ]
+      },
+      {
+        "name": "Trevi Fountain",
+        "description": "The Trevi Fountain (Fontana di Trevi) is one of the most famous fountains in the world, located in the heart of Rome. Completed in 1762, it features stunning Baroque sculptures, with Oceanus, the god of the sea, at its center. Legend says if you throw a coin into the fountain over your left shoulder, you’re guaranteed to return to Rome. The fountain is beautifully lit at night and draws millions of visitors every year. The Trevi Fountain is a timeless symbol of romance, tradition, and Roman artistry.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/7e/Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg",
+          "https://media1.thrillophilia.com/filestore/h2n5c2gfwi5pe7hvg603izd3mdbv_jdvkvdf2vgg5pax7s4zlpzs7bbb5_1580544074_shutterstock_312684887.jpg"
+        ]
+      },
+      {
+        "name": "Vatican Museums",
+        "description": "The Vatican Museums are one of the world’s greatest art collections, located within Vatican City. Founded in the early 16th century by Pope Julius II, the museums house centuries of masterpieces from ancient sculptures to Renaissance art. Highlights include the Sistine Chapel, featuring Michelangelo’s famous ceiling, the Raphael Rooms, and treasures from Egyptian, Greek, and Roman civilizations. The museums stretch over 7 kilometers of galleries, making them a must-visit for art and history lovers. The Vatican Museums offer a journey through the heart of human creativity, faith, and culture.",
+        "images": [
+          "https://media.cntraveler.com/photos/5a99866499c77f4533dfc047/16:9/w_2240,c_limit/Braccio-Nuovo-Sculpture-Gallery-J9FA8C.jpg",
+          "https://vatican.museum/images/w800-f1/storage/app/public/repository/2/6d01fe5788884a8d8d2fc89d70179efc.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "destination": "Bali",
+    "mainImage": "https://www.agoda.com/wp-content/uploads/2020/01/Besakih-Temple-places-to-visit-in-Bali.jpg",
+    "bestHotels": [
+      {
+        "name": "The Legian Bali",
+        "price": 250,
+        "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/38/3d/09/the-legian-bali-a-ghm.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/b5/48/57/the-legian-bali-the-lobby.jpg"],
+        "rating" : 4.7,
+        "totalRating": 28,
+        "amenities": ["Room service", "Free Wi-Fi", "Buffet options", "Fitness Center", "Sauna", "Spa and wellness center"]
+      },
+      {
+        "name": "Ayana Resort",
+        "price": 270,
+        "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/9e/b9/a4/kisik-lounge.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/27/86/ae/sdrk-new-renovated.jpg"],
+        "rating" : 4.8,
+        "totalRating": 32,
+        "amenities": ["Room service", "Free Wi-Fi", "Buffet options", "Fitness Center", "Sauna", "Spa and wellness center"]
+      },
+      {
+        "name": "Four Seasons Resort Bali",
+        "price": 330,
+        "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/71/3a/ae/two-bedroom-premier-ocean.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/4e/10/65/four-bedroom-premier.jpg"],
+        "rating" : 5.0,
+        "totalRating": 36,
+        "amenities": ["Free Wi-Fi", "Business Center", "Fitness Center", "Airport Shuttle", "Swimming Pool"]
+      }
+    ],
+    "touristSpots": [
+      {
+        "name": "Uluwatu Temple",
+        "description": "Uluwatu Temple (Pura Luhur Uluwatu) is a majestic Balinese sea temple perched on the edge of a steep cliff, 70 meters above the Indian Ocean. Located on Bali’s southwestern coast, it’s one of the island’s six key spiritual pillars. The temple is famous for its sunset views, dramatic ocean backdrop, and the traditional Kecak fire dance performed daily at dusk. While the inner temple is reserved for worshippers, visitors can explore the scenic grounds and spot monkeys that roam the area. Uluwatu Temple blends spirituality, culture, and stunning natural beauty in one unforgettable experience.",
+        "images": [
+          "https://balistarisland.com/wp-content/uploads/2016/04/uluwatusunset.jpg",
+          "https://www.theungasan.com/wp-content/uploads/2020/01/bali-uluwatu-temple-goibibo.jpg"
+        ]
+      },
+      {
+        "name": "Tegallalang Rice Terrace",
+        "description": "The Tegallalang Rice Terrace is one of Bali’s most scenic landscapes, located just north of Ubud. Known for its lush green rice paddies arranged in dramatic, layered terraces, it showcases the island’s traditional subak irrigation system, a UNESCO-recognized heritage. Visitors come for the breathtaking views, peaceful atmosphere, and photo opportunities among the swaying palms. You can walk through the terraces, enjoy a coffee at a nearby café, or try a swing over the fields. Tegallalang is a beautiful blend of nature, culture, and local farming life — a must-see for anyone visiting Bali.",
+        "images": [
+          "https://roadtripsandsuitcases.com/wp-content/uploads/2025/03/DSC_2816_7_8_Optimizer_edited_edited.jpg",
+          "https://theworldtravelguy.com/wp-content/uploads/2020/05/DJI_0910-3.jpg"
+        ]
+      },
+      {
+        "name": "Tanah Lot",
+        "description": "Tanah Lot is one of Bali’s most iconic sea temples, perched on a rocky outcrop surrounded by the ocean. Built in the 16th century, it’s a sacred place dedicated to the sea gods and a stunning example of Balinese architecture and spirituality. At high tide, the temple appears to float on water, creating a magical view — especially at sunset. While access to the temple itself is restricted, visitors can explore the area, enjoy local markets, and take in the dramatic coastal scenery. Tanah Lot is a must-visit for its cultural significance and breathtaking views.",
+        "images": [
+          "https://theworldtravelguy.com/wp-content/uploads/2020/11/DJI_0943_1200.jpg",
+          "https://www.raftingbali.net/wp-content/uploads/2025/02/tanah-lot-temple-bali-ocean-waves.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "destination": "Cape Town",
+    "mainImage": "https://cdn.mahlatini.com/Muizenberg-Beach.jpg",
+    "bestHotels": [
+      {
+        "name": "One&Only Cape Town",
+        "price": 280,
+        "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/3d/01/13/caption.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/3a/f1/e0/caption.jpg"],
+        "rating" : 4.5,
+        "totalRating": 17,
+        "amenities": ["Room service", "Free Wi-Fi", "Buffet options", "Fitness Center", "Sauna", "Spa and wellness center"]
+      },
+      {
+        "name": "Cape Grace Hotel",
+        "price": 260,
+        "images": ["https://pix8.agoda.net/hotelImages/31680370/589038040/70d1fa888d619958541ee3c06da4bc53.jpeg", "https://pix8.agoda.net/property/46292552/743155908/0b06764fdc5e9347b6d3478f4a1661e2.jpeg"],
+        "rating" : 4.0,
+        "totalRating": 22,
+        "amenities": ["Free Wi-Fi", "Game room", "Business Center", "Sauna", "Buffet options"]
+      },
+      {
+        "name": "The Silo Hotel",
+        "price": 300,
+        "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ab/f4/89/the-silo-hotel.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/ba/a0/54/the-silo-hotel.jpg"],
+        "rating" : 4.2,
+        "totalRating": 30,
+        "amenities": ["Complimentary breakfast", "Business Center", "24/7 Room service", "Free Wi-Fi", "Buffet options"]
+      }
+    ],
+    "touristSpots": [
+      {
+        "name": "Table Mountain",
+        "description": "Table Mountain is Cape Town’s most famous natural landmark, known for its flat-topped summit and sweeping views of the city, coastline, and ocean. Rising about 1,085 meters above sea level, it’s a central feature of Table Mountain National Park. Visitors can hike to the top or take the scenic Table Mountain Aerial Cableway. The mountain is home to a rich variety of plants and animals, many found nowhere else on Earth. A symbol of South Africa’s natural beauty, Table Mountain is also one of the New 7 Wonders of Nature.",
+        "images": [
+          "https://cdn.britannica.com/41/75841-050-FAAE44F0/Table-Mountain-Cape-Town-Western-Bay-South.jpg",
+          "https://www.news.uct.ac.za/cache/images/archive/dailynews/2015/800x0/normal/CapeTownMountain_700.jpg"
+        ]
+      },
+      {
+        "name": "Cape of Good Hope",
+        "description": "The Cape of Good Hope is a dramatic headland on the southern tip of the Cape Peninsula, just outside Cape Town, South Africa. Often mistaken as the southernmost point of Africa, it's where the Atlantic and Indian Oceans appear to meet. Famous for its rugged cliffs, breathtaking ocean views, and diverse wildlife, the area is part of the Table Mountain National Park. Visitors often spot baboons, ostriches, antelope, and even whales offshore. Rich in maritime history and natural beauty, the Cape of Good Hope is a must-see for nature lovers and explorers alike.",
+        "images": [
+          "https://media.cntraveler.com/photos/5b742b0cde8e29470d34f562/16:9/w_2240,c_limit/Cape-of-Good-Hope_GettyImages-962634118.jpg",
+          "https://www.marineinsight.com/wp-content/uploads/2022/06/Cape-of-Storms.png"
+        ]
+      },
+      {
+        "name": "Robben Island",
+        "description": "Robben Island is a small island off the coast of Cape Town, South Africa, known worldwide as the place where Nelson Mandela was imprisoned for 18 of his 27 years behind bars. For centuries, it served as a place of exile, but it became a symbol of freedom and resilience during the fight against apartheid. Today, Robben Island is a UNESCO World Heritage Site and museum. Guided tours, often led by former political prisoners, give visitors a powerful look into South Africa’s struggle for justice and democracy. Robben Island stands as a moving reminder of the country's past, progress, and hope.",
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a4/f2/14/robben-islandhas-been.jpg",
+          "https://media.cntraveler.com/photos/5b742b173b56095eeae66c51/16:9/w_2240,c_limit/Robben-Island_GettyImages-98812815.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "destination": "Sydney",
+    "mainImage": "https://cdn.pixabay.com/photo/2014/06/06/09/36/sydney-opera-house-363244_1280.jpg",
+    "bestHotels": [
+      {
+        "name": "Park Hyatt Sydney",
+        "price": 370,
+        "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/7e/1f/cf/opera-room.jpg", "https://y.cdrst.com/foto/hotel-sf/c673/granderesp/park-hyatt-sydney-general-124feaf9.jpg"],
+        "rating" : 5.0,
+        "totalRating": 12,
+        "amenities": ["Free Wi-Fi", "Hairdryer", "Fitness Center", "Desk/workspace", "Concierge service"]
+      },
+      {
+        "name": "Shangri-La Hotel",
+        "price": 350,
+        "images": ["https://media.cntraveler.com/photos/59e79bd3cae8da16e6cd4aed/16:9/w_2240,c_limit/Bedroom1-ShangriLaHotelSydney-Australia-CRHotel.jpg", "https://media.cntraveler.com/photos/59e79bd4cae8da16e6cd4aee/16:9/w_2240,c_limit/Bedroom2-ShangriLaHotelSydney-Australia-CRHotel.jpg"],
+        "rating" : 4.3,
+        "totalRating": 26,
+        "amenities": ["Complimentary breakfast", "Business Center", "24/7 Room service", "Free Wi-Fi", "Buffet options"]
+      },
+      {
+        "name": "The Langham Sydney",
+        "price": 360,
+        "images": ["https://www.kayak.co.in/rimg/himg/f3/a1/93/leonardo-1289178-TLSYD_Langham_Suite_Bedroom_2015_hires_O-490300.jpg", "https://www.kayak.co.in/rimg/himg/8f/79/ed/leonardo-1289178-TLSYD_The_Obervatory_Suite_2015_hires_O-553502.jpg"],
+        "rating" : 3.7,
+        "totalRating": 15,
+        "amenities": ["Free Wi-Fi", "Business Center", "Fitness Center", "Airport Shuttle", "Swimming Pool"]
+      }
+    ],
+    "touristSpots": [
+      {
+        "name": "Sydney Opera House",
+        "description": "The Sydney Opera House is one of the world’s most iconic architectural landmarks, located on Bennelong Point in Sydney Harbour. Opened in 1973, its sail-like design by Jørn Utzon has made it a global symbol of modern architecture and Australian creativity. It hosts a wide range of performances — from opera and ballet to concerts and theater — across multiple venues inside. Surrounded by water and set against the backdrop of the Harbour Bridge, it's a must-visit for culture lovers and sightseers alike. The Opera House is a UNESCO World Heritage Site and a masterpiece of design, culture, and innovation.",
+        "images": [
+          "https://cdn-imgix.headout.com/tour/20072/TOUR-IMAGE/d85280d5-3c4f-4f54-bd7a-6fc5cc68597f-10732-sydney-sydney-and-bondi-tour-with-sydney-opera-house-tour-01.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/1920px-Sydney_Australia._%2821339175489%29.jpg"
+        ]
+      },
+      {
+        "name": "Bondi Beach",
+        "description": "Bondi Beach is one of the most famous beaches in Australia, located just 7 km from Sydney’s city center. Known for its golden sand, rolling surf, and laid-back vibe, it’s a hotspot for swimmers, surfers, and sunseekers alike. The beach features a scenic coastal walk to Coogee, lively cafés, weekend markets, and the iconic Bondi Icebergs ocean pool. Lifeguards patrol the beach year-round, making it a safe and popular spot for locals and tourists. Bondi Beach is a true symbol of Sydney’s beach culture and coastal lifestyle.",
+        "images": [
+          "https://media1.thrillophilia.com/filestore/21jb1ui2bdcmupy9z20o626wi1v7_1579339577_Bondi_Beach_Sydney.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Bondi_from_above.jpg/1920px-Bondi_from_above.jpg"
+        ]
+      },
+      {
+        "name": "Harbour Bridge",
+        "description": "The Sydney Harbour Bridge is one of Australia’s most iconic landmarks, connecting Sydney’s central business district with the North Shore. Opened in 1932, it’s often called the “Coathanger” due to its unique arch shape. Made of steel, the bridge spans 1,149 meters and carries cars, trains, bicycles, and pedestrians. One of its highlights is the BridgeClimb, where visitors can walk to the top for panoramic views of Sydney Harbour and the Opera House. The Harbour Bridge is a symbol of Australian engineering, strength, and scenic beauty.",
+        "images": [
+          "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/543000/543113-sydney-harbour-bridge.jpg",
+          "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/295000/295092-Sydney-Harbour-Bridge.jpg"
+        ]
+      }
+    ]
+  }
+]
