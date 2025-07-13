@@ -121,7 +121,7 @@
       {
         "name": "The Plaza",
         "price": 450,
-        "images": [],
+        "images": ["https://gommts3.mmtcdn.com/htl-imgs/htl-imgs/4219023832548539-42dc52a9_z.jpg", "https://gommts3.mmtcdn.com/htl-imgs/htl-imgs/4219023832548539-2fd162bc_z.jpg"],
         "rating" : 3.3,
         "totalRating": 20,
         "amenities": ["Air Conditioning", "Free Wi-Fi", "Tea/Coffee Maker", "Private Bathroom with Toiletries", "Business Center"]
@@ -129,7 +129,7 @@
       {
         "name": "Four Seasons Hotel",
         "price": 500,
-        "images": [],
+        "images": ["https://www.fourseasons.com/alt/img-opt/~80.3060.0,0000-204,2684-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/NYF/NYF_1614_original.jpg", "https://www.fourseasons.com/alt/img-opt/~80.3060.0,0000-156,2500-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/NYF/NYF_1627_original.jpg"],
         "rating" : 4.8,
         "totalRating": 18,
         "amenities": ["Fitness Center", "Sauna", "Bar", "Babysitting service", "Wheelchair accessible facilities"]
@@ -137,7 +137,7 @@
       {
         "name": "The Langham",
         "price": 380,
-        "images": [],
+        "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e6/07/51/the-langham-new-york.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/f7/12/fd/caption.jpg"],
         "rating" : 4.9,
         "totalRating": 20,
         "amenities": ["Free Wi-Fi", "Business Center", "Fitness Center", "Sauna", "Babysitting service"]
@@ -178,7 +178,7 @@
       {
         "name": "Hotel de Russie",
         "price": 320,
-        "images": [],
+        "images": ["https://res.cloudinary.com/grand-luxury/image/upload/w_1200,q_50,f_auto,c_fill,g_center,dpr_2/remote_glh/original/167480-root-superior-room-main-bedroom.jpg", "https://res.cloudinary.com/grand-luxury/image/upload/w_1200,q_50,f_auto,c_fill,g_center,dpr_1/remote_glh/original/167483-root-superior-room-garden-view-main-bedroom.jpg"],
         "rating" : 4.9,
         "totalRating": 28,
         "amenities": ["Free Wi-Fi", "Air Conditioning", "Restaurant", "Minibar", "Business Center", "Fitness Center"]
@@ -186,7 +186,7 @@
       {
         "name": "Rome Cavalieri",
         "price": 290,
-        "images": [],
+        "images": ["https://romecavalieri.com/wp-content/uploads/2016/05/King-Imperial-Rome-View-853.jpg", "https://romecavalieri.com/wp-content/uploads/2016/05/Imperial-Club_fireplace.jpg"],
         "rating" : 3.9,
         "totalRating": 20,
         "amenities": ["Room service", "Free Wi-Fi", "Buffet options", "Fitness Center", "Sauna", "Spa and wellness center"]
@@ -194,7 +194,7 @@
       {
         "name": "Baglioni Hotel Regina",
         "price": 310,
-        "images": [],
+        "images": ["https://rome.baglionihotels.com/room_family_suite_baglioni_hotel_regina_528c074f6c.jpg", "https://rome.baglionihotels.com/bedroom_family_suite_baglioni_hotel_regina_1_e78b9b6f68.jpg"],
         "rating" : 3.6,
         "totalRating": 29,
         "amenities": ["Free Wi-Fi", "Game room", "Business Center", "Sauna", "Buffet options"]

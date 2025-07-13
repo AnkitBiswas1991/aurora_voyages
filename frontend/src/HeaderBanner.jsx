@@ -48,7 +48,7 @@ const HeaderBanner = function() {
                         <FaAngleRight />
                     </button>
                 </div>
-                <div className="dots flex items-center justify-center gap-8 absolute bottom-5 left-0 right-0 z-10">
+                <div className="dots flex items-center justify-center gap-3 md:gap-5 xl:gap-8 absolute bottom-5 left-0 right-0 z-10">
                     {bannerImages.map((img, i) => (<button type='button' key={i} onClick={() => goToSlide(i)} className={`cursor-pointer rounded-full ${curSlide === i ? `${sliderstyle['active-dot']}`: ``} ${sliderstyle['slider-dot']}`}></button>))}
                 </div>
             </div>

@@ -16,25 +16,13 @@ const Spots = function({touristSpot, destination, bestHotels, id}){
     useEffect(() => getPrice(), [])
         
     return(
-        <div className="w-1/4 px-4 mb-8" style={{cursor: "pointer"}} onClick={() => navigate(`/places/${id}`)}>
+        <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8" style={{cursor: "pointer"}} onClick={() => navigate(`/places/${id}`)}>
             <div className="each-spot shadow-md rounded-sm overflow-hidden">
                 <div className={`relative w-full overflow-hidden pt-[75%]`}>
                     <div className="tourslider">
-                        {touristSpot.slice(0, 1).map((spot) =>
-                            (
-                                spot.images.slice(0, 1).map((img, i) =>
-                                <figure key={i} className={`absolute top-0 left-0 w-full h-full overflow-hidden`}>
-                                    <img src={img} alt={spot.name} className={`absolute top-1/2 left-1/2 translate-[-50%] w-full h-full max-w-full object-cover object-center`} />
-                                </figure>
-                            ))
-                        )}
-                    </div>
-                    <div className="dots flex gap-4 justify-center">
-                        {
-                            touristSpot.map((spot) => (
-                                spot.images.map(() => (<div className="dot rounded-circle cursor-pointer"></div>))
-                            ))
-                        }
+                        <figure className={`absolute top-0 left-0 w-full h-full overflow-hidden`}>
+                            <img src={touristSpot?.[0].images?.[0]} alt={touristSpot?.[0].name} className={`absolute top-1/2 left-1/2 translate-[-50%] w-full h-full max-w-full object-cover object-center`} />
+                        </figure>
                     </div>
                 </div>
                 <div className="travel-sec-details p-3 text-left">

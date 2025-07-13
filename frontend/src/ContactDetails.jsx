@@ -12,16 +12,22 @@ const ContactDetails = function({showAddress = false, fontSize}) {
         <ul className={fontSize}>
             {showAddress && (
                 <li className='flex items-center gap-3 mb-1'>
-                    <FaMapMarkerAlt />
+                    <div className='w-[16px]'>
+                        <FaMapMarkerAlt size={16}/>
+                    </div>
                     <p>{cntctDetails.address}</p>
                 </li>
             )}
             <li className='flex items-center gap-3 mb-1'>
-                <FaEnvelope />
+                <div className='w-[16px]'>
+                <FaEnvelope size={16}/>
+                </div>
                 <Link to={`mailto:${cntctDetails.emailId}`} className='text-white hover:text-cyan-500 transition-all duration-300 ease-in-out'>{cntctDetails.emailId}</Link>
             </li>
             <li className='flex items-center gap-3 mb-1'>
-                <FaPhoneAlt />
+                <div className='w-[16px]'>
+                <FaPhoneAlt size={16}/>
+                </div>
                 <Link to={`tel:${cntctDetails.phone}`} className='text-white hover:text-cyan-500 transition-all duration-300 ease-in-out'>{cntctDetails.phone}</Link>
             </li>
         </ul>

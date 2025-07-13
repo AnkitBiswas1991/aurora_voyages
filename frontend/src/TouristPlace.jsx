@@ -21,21 +21,21 @@ const TouristPlace = function() {
     <figure className='banner-img relative overflow-hidden h-[70vh]'>
         <img src={tourSpot.mainImage} alt={tourSpot.destination} className='absolute top-0 left-0 w-full h-full max-w-full object-cover object-center'/>
         <div className="text-center absolute top-0 left-0 right-0 bottom-0 tourist-banner-cntnt">
-            <div className="container mx-auto absolute bottom-0 left-0 right-0 z-10">
-            <Heading1 heading={tourSpot.destination} headClass={`pb-10 !mb-0 !text-6xl text-shadow-lg text-shadow-cyan-950 absolute bottom-0 left-0`}/>
+            <div className="container mx-auto px-4 absolute bottom-0 left-0 right-0 z-10">
+            <Heading1 heading={tourSpot.destination} headClass={`px-4 pb-6 md:pb-8 lg:pb-10 !mb-0 !text-4xl md:!text-5xl lg:!text-6xl text-shadow-lg text-shadow-cyan-950 absolute bottom-0 left-0`}/>
             </div>
         </div>
     </figure>
     <div className="my-8">
-        <div className="container mx-auto">
-            <div className="flex -mx-6 flex-wrap">
-                <div className="w-2/3 px-6">
+        <div className="container mx-auto px-4">
+            <div className="flex -mx-4 lg:-mx-6 flex-wrap">
+                <div className="w-full lg:w-2/3 px-4 lg:px-6">
                     <div>
                         <Heading3 heading={"Available Hotels"} headClass={'border-b border-gray-300 mb-5 pb-2'}/>
                         {tourSpot.bestHotels?.map((hotel, i) => (
                             <div key={i} className={`${i < (tourSpot.bestHotels.length - 1) ? "mb-3 pb-4 border-b border-gray-300" : ""}`}>
                                 <div className="flex justify-between mb-4">
-                                    <div className="hotel-details w-2/3">
+                                    <div className="hotel-details w-1/2 lg:w-2/3">
                                         <Heading4 heading={hotel.name}/>
                                         <span className="font-bold mb-2 inline-block">Amenities Available</span>
                                         <ul className="text-sm ms-2">
@@ -44,7 +44,7 @@ const TouristPlace = function() {
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="hotel-pic w-1/3">
+                                    <div className="hotel-pic w-1/2 lg:w-1/3">
                                             <div className="text-end">
                                                 <div className="flex justify-end gap-2 mb-1">
                                                     <span></span>
@@ -67,7 +67,7 @@ const TouristPlace = function() {
                                     </div>
                                 </div>
                                 
-                                <button className="cursor-pointer bg-cyan-950 hover:bg-cyan-600 text-white transition-all duration-300 ease-in-out rounded-sm px-4 py-2" onClick={() => navigate(
+                                <button className="cursor-pointer bg-cyan-950 hover:bg-cyan-600 text-white transition-all duration-300 ease-in-out rounded-sm px-3 lg:px-4 py-1 lg:py-2" onClick={() => navigate(
                                     `/booking`, {
                                         state: {
                                             hotel: hotel,
@@ -79,15 +79,15 @@ const TouristPlace = function() {
                         ))}
                     </div>
                 </div>
-                <div className="w-1/3 px-6">
-                    <Heading3 heading={"Popular Tourist Spots"} headClass={'border-b border-gray-300 mb-5 pb-2'}/>
+                <div className="w-full lg:w-1/3 px-4 lg:px-6 mt-8 lg:mt-0">
+                    <Heading3 heading={"Popular Tourist Spots"} headClass={'border-b border-gray-300 mb-3 lg:mb-5 pb-2'}/>
                     {tourSpot.touristSpots?.map((tour, i) => (
                         <div key={i} className={`${i < (tourSpot.touristSpots.length - 1) ? "pb-5 mb-5 border-b border-cyan-800" : ""}`}>
                             <Heading4 heading={tour.name}/>
-                            <div className="toristimages flex flex-wrap -mx-3 mb-4">
+                            <div className="toristimages flex flex-wrap -mx-1 xl:-mx-3 mb-2 lg:mb-4">
                                 { tour.images.map((img, i) => 
-                                    <div key={i} className='px-3 w-1/2'>
-                                        <figure className='shadow-lg overflow-hidden rounded h-full border-5 border-white'>
+                                    <div key={i} className='px-1 xl:px-3 w-full sm:w-1/2 mb-2 sm:mb-0 md:mb-2 lg:mb-0'>
+                                        <figure className='shadow-lg overflow-hidden rounded h-full border-0 md:border-3 lg:border-5 border-white'>
                                             <img src={img} alt={tour.name} className='w-full h-full object-cover object-center'/>
                                         </figure>
                                     </div>
