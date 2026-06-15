@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderBanner from './HeaderBanner'
-import Heading2 from './components/heading2'
+import Heading2 from './components/Heading2'
 import HomeTravels from './HomeTravels'
 
 
