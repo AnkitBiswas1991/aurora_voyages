@@ -10,7 +10,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'https://aurora-voyages.onrender.com/',
         changeOrigin: true,
         secure: false,
       },
