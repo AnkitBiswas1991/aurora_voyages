@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cors());
 
-app.get("/api/travelers", (req, res) => {
+app.get("https://aurora-voyages.onrender.com/api/travelers", (req, res) => {
     return res.json(traveler);
 })
 
@@ -30,13 +30,13 @@ app.get("/travelers", (req, res) => {
     res.send(html);
 })
 
-app.get("/api/travelers/:id", (req, res) => {
+app.get("https://aurora-voyages.onrender.com/api/travelers/:id", (req, res) => {
     const id = Number(req.params.id);
     const travels = traveler.find(travel => (travel.id === id));
     return res.json(travels);
 })
 
-app.put("/api/travelers/:id", (req, res) => {
+app.put("https://aurora-voyages.onrender.com/api/travelers/:id", (req, res) => {
     const id = Number(req.params.id);
     const index = traveler.findIndex(travel => travel.id === id);
 
@@ -51,7 +51,7 @@ app.put("/api/travelers/:id", (req, res) => {
 
     res.json({ message: "Destination fully replaced", data: updatedData });
 });
-app.patch("/api/travelers/:id", (req, res) => {
+app.patch("https://aurora-voyages.onrender.com/api/travelers/:id", (req, res) => {
    const id = Number(req.params.id);
     const updateData = req.body;
 
@@ -65,7 +65,7 @@ app.patch("/api/travelers/:id", (req, res) => {
     saveTravelerData();
     return res.json({ message: "Destination updated", data: traveler[travelIndex] });
 })
-app.delete("/api/travelers/:id", (req, res) => {
+app.delete("https://aurora-voyages.onrender.com/api/travelers/:id", (req, res) => {
     const id = Number(req.params.id);
     const travelIndex = traveler.findIndex(travel => travel.id === id);
 
@@ -77,7 +77,7 @@ app.delete("/api/travelers/:id", (req, res) => {
     saveTravelerData();
     return res.json({ message: "Destination deleted", data: deleted[0] });
 })
-app.post("/api/travelers", (req, res) => {
+app.post("https://aurora-voyages.onrender.com/api/travelers", (req, res) => {
     const newTravel = req.body;
 
     const newId = traveler.length > 0 ? traveler[traveler.length - 1].id + 1 : 1;
