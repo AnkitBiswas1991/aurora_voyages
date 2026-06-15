@@ -1,5 +1,5 @@
 import React, {useEffect, useState } from 'react'
-import Heading2 from './components/heading2'
+import Heading2 from './components/Heading2'
 import Heading4 from './components/Heading4';
 import Editform from './Editform'
 import { useLocation } from 'react-router-dom'

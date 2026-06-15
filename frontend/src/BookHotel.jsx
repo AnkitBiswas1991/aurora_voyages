@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import Bookform from './Bookform';
-import Heading2 from './components/heading2.jsx';
+import Heading2 from './components/Heading2';
 import Heading4 from './components/Heading4';
 
 const BookHotel = function() {

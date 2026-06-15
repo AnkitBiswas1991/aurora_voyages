@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Heading2 from './components/heading2';
+import Heading2 from './components/Heading2';
 import Heading3 from './components/Heading3';
 import Button from './components/Button';
 
