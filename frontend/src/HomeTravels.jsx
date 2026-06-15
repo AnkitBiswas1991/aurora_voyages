@@ -6,7 +6,7 @@ import Button from './components/Button';
 const HomeTravels = function() {
     const [travels, setTravels] = useState([]);
     const getTravels = function(){
-        fetch(`/api/travelers/`)
+        fetch(`https://aurora-voyages.onrender.com/api/travelers`)
         .then(res => res.json())
         .then(data => setTravels(data));
     }

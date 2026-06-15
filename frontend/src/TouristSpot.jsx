@@ -5,7 +5,7 @@ import Heading1 from './components/Heading1';
 const TouristSpot = function () {
   const [traveler, setTraveler] = useState([]);
   useEffect(() => {
-    fetch(`/api/travelers`)
+    fetch(`https://aurora-voyages.onrender.com/api/travelers`)
       .then((res) => res.json())
       .then((data) => setTraveler(data))
   }, []);

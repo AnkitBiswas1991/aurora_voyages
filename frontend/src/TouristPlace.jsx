@@ -12,7 +12,7 @@ const TouristPlace = function() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`/api/travelers/${id}`)
+        fetch(`https://aurora-voyages.onrender.com/api/travelers/${id}`)
         .then(res => res.json())
         .then(data => setTourSpot(data));
     }, [id])

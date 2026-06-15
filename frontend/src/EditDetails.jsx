@@ -14,7 +14,7 @@ const EditDetails = function() {
     const currEditData = bookedData
 
     useEffect(() => {
-        fetch(`/api/travelers`)
+        fetch(`https://aurora-voyages.onrender.com/api/travelers`)
         .then(res => res.json())
         .then(data => setDestination(data));
 
